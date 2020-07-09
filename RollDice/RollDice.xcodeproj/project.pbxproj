@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F1437DD624B4A11700B72FED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1437DD524B4A11700B72FED /* AppDelegate.swift */; };
 		F1437DD824B4A11700B72FED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1437DD724B4A11700B72FED /* SceneDelegate.swift */; };
-		F1437DDA24B4A11700B72FED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1437DD924B4A11700B72FED /* ViewController.swift */; };
+		F1437DDA24B4A11700B72FED /* DiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1437DD924B4A11700B72FED /* DiceViewController.swift */; };
 		F1437DDD24B4A11700B72FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1437DDB24B4A11700B72FED /* Main.storyboard */; };
 		F1437DDF24B4A11800B72FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1437DDE24B4A11800B72FED /* Assets.xcassets */; };
 		F1437DE224B4A11800B72FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1437DE024B4A11800B72FED /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		F1437DD224B4A11700B72FED /* RollDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RollDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1437DD524B4A11700B72FED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1437DD724B4A11700B72FED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F1437DD924B4A11700B72FED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1437DD924B4A11700B72FED /* DiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewController.swift; sourceTree = "<group>"; };
 		F1437DDC24B4A11700B72FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1437DDE24B4A11800B72FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1437DE124B4A11800B72FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +58,7 @@
 			children = (
 				F1437DD524B4A11700B72FED /* AppDelegate.swift */,
 				F1437DD724B4A11700B72FED /* SceneDelegate.swift */,
-				F1437DD924B4A11700B72FED /* ViewController.swift */,
+				F1437DD924B4A11700B72FED /* DiceViewController.swift */,
 				F1437DDB24B4A11700B72FED /* Main.storyboard */,
 				F1437DDE24B4A11800B72FED /* Assets.xcassets */,
 				F1437DE024B4A11800B72FED /* LaunchScreen.storyboard */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1437DDA24B4A11700B72FED /* ViewController.swift in Sources */,
+				F1437DDA24B4A11700B72FED /* DiceViewController.swift in Sources */,
 				F1437DD624B4A11700B72FED /* AppDelegate.swift in Sources */,
 				F1437DD824B4A11700B72FED /* SceneDelegate.swift in Sources */,
 			);
